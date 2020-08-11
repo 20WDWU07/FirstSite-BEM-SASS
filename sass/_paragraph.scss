@@ -1,0 +1,15 @@
+.paragraph__container {
+  // border: 2px solid $border-color;
+  padding: $padding-all;
+  font-size: $font-size;
+  font-weight: bold;
+  margin: $margin-allBig;
+  color: $text-color;
+  line-height: $line-height;
+  background: $back-color;
+  border-radius: 10%;
+  width:60%;
+  float:left;
+  height: 400px;
+  // overflow: scroll;
+}

@@ -1,0 +1,27 @@
+@import 'variables';//always import partials on top
+@import 'button';
+@import 'paragraph';
+@import 'list';
+@import 'image';
+body{
+  //variable usage called key:value pair
+
+}
+main{
+  width: 80%;
+  margin: auto;
+  border: 5px solid $border-color;
+}
+
+.heading__text {
+  color: $text-color;
+  margin: $margin-allBig;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+section::after{
+  clear: left;
+}

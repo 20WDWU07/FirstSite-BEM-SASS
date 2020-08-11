@@ -1,0 +1,21 @@
+.ingredients {
+  // border: 1px solid $border-color;
+  border-radius: 10%;
+  width:60%;
+  line-height: $line-height;
+  margin : $margin-allBig;
+  color: $back-color;
+  background: $text-color;
+  float:left;
+  height: 400px;
+  // overflow: scroll;
+}
+
+.ingredients__heading{
+  margin: 6*$margin-all;
+  color:#fff;
+}
+
+.ingredients__list{
+  list-style: none;
+}
